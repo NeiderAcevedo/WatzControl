@@ -2,7 +2,7 @@ import React from "react";
 import "../../src/styles.css";
 import Logo_WC from "../../images/Logo_WC.png";
 
-function Footer_InicioPP() {
+function Footer_General() {
   return (
     <div>
       <div className="logo">
@@ -14,4 +14,4 @@ function Footer_InicioPP() {
     </div>
   );
 }
-export default Footer_InicioPP;
+export default Footer_General;

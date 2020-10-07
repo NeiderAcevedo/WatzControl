@@ -5,8 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import $ from "jquery";
 import popper from "popper.js";
 
-import App from "../src/Pages";
-
+import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

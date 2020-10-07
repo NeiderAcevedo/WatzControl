@@ -24,8 +24,8 @@ function Description_InicioPP() {
       </div>
 
       <div className="Imagen">
-        <img className="Principal" src={Consumo} />
-        <img className="Principal1" src={Bombillo} />
+        <image className="Principal" src={Consumo} />
+        <image className="Principal1" src={Bombillo} />
       </div>
     </div>
   );
