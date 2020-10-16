@@ -1,8 +1,19 @@
 .App {
   font-family: sans-serif;
+  text-align:left;
+}
+
+.neider{
+float: rigt;
+}
+.TexCabeza{
+font-family: 'Times New Roman', Times, serif;
   text-align: center;
+  }
+
+.problema{
+font-family: 'Times New Roman', Times, serif;
+text-align: left;
 }
-.TexCabeza {
-  font-family: "Times New Roman", Times, serif;
-  text-align: left;
-}
+
+
