@@ -5,7 +5,7 @@ import Logo_WC from "../../images/Logo_WC.png";
 function Footer_General() {
   return (
     <div>
-      <div className="logo">
+      <div className="logoF">
         <image src={Logo_WC} />
       </div>
       <p className="inicioPP">WatzControl</p>

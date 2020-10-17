@@ -8,7 +8,7 @@ import Footer_InicioPP from "../Componet/Footer/Footer_InicioPP";
 function Inicio() {
   return (
     <> 
-    <div className= "fondo">
+    <div className= "pages1">
       <Header/>
       <Description/>
       <Footer_InicioPP/>
