@@ -5,12 +5,12 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import $ from "jquery";
 import popper from "popper.js";
 
-import paginaInicio from "../src/Pages/Pages_InicioPP";
+import App from "../src/App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <paginaInicio />
+    <App />
   </React.StrictMode>,
   rootElement
 );

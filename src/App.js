@@ -1,11 +1,19 @@
 import React from "react";
-import "./styles.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+import paginaInicio from "../src/Pages/Pages_InicioPP";
+import paginaIniciarSesion from "../src/Pages/Pages_InicioSe";
+
+class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={paginaInicio} />
+          <Route exact path="iniSesion" component={paginaIniciarSesion} />
+        </Switch>
+      </BrowserRouter>
+    );
+  }
 }
+export default App;
