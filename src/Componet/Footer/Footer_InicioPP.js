@@ -1,16 +1,28 @@
 import React from "react";
-import "../../src/styles.css";
-import Logo_WC from "../../images/Logo_WC.png";
+import "../../styles.css";
+import logo from "../../images/logo.jpg";
 
 function Footer_InicioPP() {
   return (
-    <div>
-      <div className="logo">
-        <image src={Logo_WC} />
+    <div className="fr">
+      <div className="redSocial">
+        <a className="facebook" href="https://www.facebook.com/">
+          Facebook
+        </a>
+        <a className="instagram" href="https://www.instagram.com/">
+          Instagram
+        </a>
+        <a className="twitter" href="https://twitter.com/login?lang=es">
+          Twitter
+        </a>
       </div>
-      <p className="inicioPP">WatzControl</p>
-      <p className="inicioPP1">(031) 346687 WatzControl@proyect.com</p>
-      <p className="inicioPP2">Copyright© ©2020</p>
+      <div className="logoF">
+       <img className="logoFU" src={logo} />
+     </div>
+     
+      <p className="inicioPP2">(031) 346687 WatzControl@proyect.com</p>
+      <p className="inicioPP1">WatzControl</p>
+      <p className="inicioPP3">Copyright© ©2020</p>
     </div>
   );
 }

@@ -27,13 +27,22 @@
   border-radius: 6px;
   border: 2px solid #000000;
 }
+
+.logoHE{
+ width: 100px;
+ height: 100px;
+ 
+}
+
 .franja {
   text-align: center;
+  width: 
 }
 
 .TexCabeza {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  margin: 6px;
 }
 
 .problema {
@@ -79,11 +88,16 @@
   color: #ffffff;
 }
 
+.logoFU{
+  width: 100px;
+  height: 100px;
+}
+
 .inicioPP2 {
   font-family: "Times New Roman", Times, serif;
   text-align: right;
   margin: 6px;
-  color: #fafbfc;
+  color: #ffffff;
 }
 .inicioPP1 {
   font-family: "Times New Roman", Times, serif;
@@ -93,5 +107,5 @@
   font-family: "Times New Roman", Times, serif;
   text-align: right;
   margin: 6px;
-  color: #dde0de;
+  color: #ffffff;
 }

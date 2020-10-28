@@ -1,5 +1,5 @@
 import React from "react";
-import "../../src/styles.css";
+import "../../styles.css";
 import { Link } from "react-router-dom";
 
 function Description_InicioSe() {
@@ -28,7 +28,7 @@ function Description_InicioSe() {
         </div>
       </div>
       <button type="submit" className="Boton-inicio">
-        <Link className="Botones" to="Iniciousuario">
+        <Link className="iniSesion" to="Iniciousuario">
           Iniciar
         </Link>
       </button>
