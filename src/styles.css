@@ -2,6 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+.franjaPP {
+  width: px;
+  height: 50px;
+  background: #303f9f;
+}
 .NombreAPP {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -28,15 +33,16 @@
   border: 2px solid #000000;
 }
 
-.logoHE{
- width: 100px;
- height: 100px;
- 
+.logoHE {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
 }
 
 .franja {
   text-align: center;
-  width: 
+  width: ;
 }
 
 .TexCabeza {
@@ -67,11 +73,11 @@
 }
 
 .fr {
-  background: #3f51b5;
+  background: #303f9f;
 }
 
 .redSocial {
-  text-align: right;
+  text-align: center;
 }
 .facebook {
   margin: 4px;
@@ -88,24 +94,24 @@
   color: #ffffff;
 }
 
-.logoFU{
+.logoFU {
   width: 100px;
   height: 100px;
+  display: block;
+  margin: auto;
+  
 }
 
 .inicioPP2 {
   font-family: "Times New Roman", Times, serif;
-  text-align: right;
+  text-align: center;
   margin: 6px;
   color: #ffffff;
 }
-.inicioPP1 {
-  font-family: "Times New Roman", Times, serif;
-  color: #ffc107;
-}
+
 .inicioPP3 {
   font-family: "Times New Roman", Times, serif;
-  text-align: right;
+  text-align: center;
   margin: 6px;
   color: #ffffff;
 }

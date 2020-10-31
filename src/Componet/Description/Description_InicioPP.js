@@ -6,6 +6,7 @@ import recibo from "../../images/recibo.jpg";
 function Description_InicioPP() {
   return (
     <div>
+      <div className="franjaPP"></div>
       <p className="TexCabeza">
         Bienvenid@ a WatzControl, la Aplicación Web donde podrás calcular el
         consumo y valor de cada electrodoméstico de tu hogar
@@ -22,7 +23,7 @@ function Description_InicioPP() {
         consumo del recurso energetico, y un total a pagar demasiado costoso.
       </div>
       <div className="Imagen">
-       <image className="recibo" src={recibo} />
+        <image className="recibo" src={recibo} />
       </div>
 
       <div className="vision">
@@ -38,13 +39,12 @@ function Description_InicioPP() {
         My Use: es una App que ofrece consejos útiles para ahorrar en Energía,
         Gas y Agua. Standby Check: es una App que muestra una visión general del
         consumo de energía mientras dormimos. Nuestro Producto calcula el total
-        consumido por cada electrodoméstico, dando como resultado  más
-        precisos sobre lo consumido al mes.
+        consumido por cada electrodoméstico, dando como resultado más precisos
+        sobre lo consumido al mes.
       </div>
       <div className="Imagenn">
-       <image className="bombillo" src={bombillo} />
+        <image className="bombillo" src={bombillo} />
       </div>
-
     </div>
   );
 }
