@@ -6,7 +6,6 @@ import recibo from "../../images/recibo.jpg";
 function Description_InicioPP() {
   return (
     <div>
-      <div className="franjaPP"></div>
       <p className="TexCabeza">
         Bienvenid@ a WatzControl, la Aplicación Web donde podrás calcular el
         consumo y valor de cada electrodoméstico de tu hogar

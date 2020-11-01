@@ -8,20 +8,21 @@ function Header_inicioPP() {
     <div>
       <h1 className="NombreAPP">WatzControl</h1>
 
-        <div className="logoH">
-          <img className="logoHE" src={logo} />
-        </div>
+      <div className="logoH">
+        <img className="logoHE" src={logo} />
+      </div>
       <div className="franja">
-         <button type="button" className="Button_inicioPP">
+        <button type="button" className="Button_inicioPP">
           <Link className="Botones" to="/"></Link>
           Iniciar Sesión
-          </button>
+        </button>
 
-           <button type="button" className="Button_inicioPPR">
-           Registrarse
-          </button>
+        <button type="button" className="Button_inicioPPR">
+          Registrarse
+        </button>
       </div>
-  </div>
+      <div className="franjaPP"></div>
+    </div>
   );
 }
 export default Header_inicioPP;
