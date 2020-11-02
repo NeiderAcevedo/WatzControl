@@ -4,7 +4,7 @@
 }
 .franjaPP {
   width: px;
-  height: 50px;
+  height: 100px;
   background: #303f9f;
 }
 .NombreAPP {
@@ -42,7 +42,6 @@
 
 .franja {
   text-align: center;
-  width: ;
 }
 
 .TexCabeza {
@@ -99,7 +98,6 @@
   height: 100px;
   display: block;
   margin: auto;
-  
 }
 
 .inicioPP2 {
