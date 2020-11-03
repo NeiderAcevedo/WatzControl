@@ -1,43 +1,80 @@
 import React from "react";
 import "../../styles.css";
-import { Link } from "react-router-dom";
 
 function Description_Registro() {
   return (
-    <form>
-      <div className="container">
-        <div class="form-group row">
-          <label for="inputPassword" class="col-sm-2 col-form-label">
-            Nombre
-          </label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" />
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="inputPassword" class="col-sm-2 col-form-label">
-            Correo Eletrónico
-          </label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" />
-          </div>
+    <div class="dropdown-menu">
+      <form class="px-4 py-3">
+        <div class="form-group">
+          <label for="exampleDropdownFormPassword1">Nonbre</label>
+          <input
+            type="Name"
+            class="form-control"
+            id="exampleDropdownFormName"
+            placeholder="Usiario"
+          >
+            {" "}
+          </input>
         </div>
 
-        <div class="form-group row">
-          <label for="inputPassword" class="col-sm-2 col-form-label">
-            Contraseña
-          </label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" />
+        <div class="form-group">
+          <label for="exampleDropdownFormPassword1">Apellidos</label>
+          <input
+            type="Name"
+            class="form-control"
+            id="exampleDropdownFormName"
+            placeholder="Apellido Usuario"
+          >
+            {" "}
+          </input>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleDropdownFormEmail1"> Correo Electronico</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleDropdownFormEmail1"
+            placeholder="correo@ejemplo.com"
+          >
+            {" "}
+          </input>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleDropdownFormPassword1">Contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleDropdownFormPassword1"
+            placeholder="contraseña"
+          >
+            {" "}
+          </input>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+              {" "}
+            </input>
+            <label class="form-check-label" for="dropdownCheck">
+              Remember me
+            </label>
           </div>
         </div>
-      </div>
-      <button type="button" class="Regresar">
-        <Link className="Botones" to="Funcionusuario">
-          Registrarse{" "}
-        </Link>
-      </button>
-    </form>
+        <button type="submit" class="btn btn-primary">
+          Iniciar Sesión
+        </button>
+      </form>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="http/">
+        New around here? Sign up
+      </a>
+      <a class="dropdown-item" href="http/">
+        Forgot password?
+      </a>
+    </div>
   );
 }
 export default Description_Registro;
