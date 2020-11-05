@@ -52,23 +52,37 @@
 
 .problema {
   font-family: "Times New Roman", Times, serif;
-  margin: 6px;
+  margin: 7px;
+}
+
+.recibo{
+width: 180px;
+height: 140px;
+display:block;
+margin: auto;
 }
 
 .Texto1 {
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
-  margin: 6px;
+  margin: 7px;
 }
 .vision {
   font-family: "Times New Roman", Times, serif;
-  margin: 6px;
+  margin: 7px;
 }
 
 .Texto2 {
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
-  margin: 6px;
+  margin: 7px;
+}
+
+.bombillo{
+width: 180px;
+height: 150px;
+display: block;
+margin: auto;
 }
 
 .fr {
@@ -103,13 +117,13 @@
 .inicioPP2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  margin: 6px;
+  margin: 7px;
   color: #ffffff;
 }
 
 .inicioPP3 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  margin: 6px;
+  margin: 7px;
   color: #ffffff;
 }

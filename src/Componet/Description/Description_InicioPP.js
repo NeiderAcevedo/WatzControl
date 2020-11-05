@@ -22,7 +22,7 @@ function Description_InicioPP() {
         consumo del recurso energetico, y un total a pagar demasiado costoso.
       </div>
       <div className="Imagen">
-        <image className="recibo" src={recibo} />
+        <img className="recibo" src={recibo} />
       </div>
 
       <div className="vision">
@@ -42,7 +42,7 @@ function Description_InicioPP() {
         sobre lo consumido al mes.
       </div>
       <div className="Imagenn">
-        <image className="bombillo" src={bombillo} />
+        <img className="bombillo" src={bombillo} />
       </div>
     </div>
   );

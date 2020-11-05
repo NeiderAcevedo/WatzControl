@@ -1,5 +1,5 @@
 import React from "react";
-import "../../src/styles.css";
+import "../../styles.css";
 
 function Header_RecHistorial() {
   return (
