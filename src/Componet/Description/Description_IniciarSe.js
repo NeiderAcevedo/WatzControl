@@ -1,9 +1,13 @@
 import React from "react";
 import "../../styles.css";
 
+ /* import { Link } from "react-router-dom"; */  
+
 function Description_InicioSe() {
   return (
-    <div class="dropdown-menu">
+
+    
+     <div class="dropdown-menu">
       <form class="px-4 py-3">
         <div class="form-group">
           <label for="exampleDropdownFormEmail1"> Correo Electronico</label>
@@ -50,7 +54,7 @@ function Description_InicioSe() {
       <a class="dropdown-item" href="http/">
         Forgot password?
       </a>
-    </div>
+    </div> 
   );
 }
 

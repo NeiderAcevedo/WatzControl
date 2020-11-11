@@ -12,14 +12,21 @@ function Header_inicioPP() {
         <img className="logoHE" src={logo} />
       </div>
       <div className="franja">
-        <button type="button" className="Button_inicioPP">
-          <Link className="Botones" to="/"></Link>
+
+        <button type="button" class=
+        "btn btn-outline-secondary Button_inicioPP">
+          <Link  to="iniciarSe">
           Iniciar Sesión
+          </Link>
         </button>
 
-        <button type="button" className="Button_inicioPPR">
+        <button type="button" class=
+        "btn btn-outline-secondary Button_inicioPPR">
+         <Link  to="Registro">
           Registrarse
+          </Link>
         </button>
+
       </div>
       <div className="franjaPP"></div>
     </div>
