@@ -8,8 +8,8 @@ function Pages_InicioSe() {
   return (
     <>
       <div className="pages2">
-        <Description />
         <Header />
+        <Description />
         <Footer />
       </div>
     </>

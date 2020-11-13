@@ -1,80 +1,39 @@
 import React from "react";
 import "../../styles.css";
-
+import { Link } from "react-router-dom";
 function Description_Registro() {
   return (
-    <div class="dropdown-menu">
-      <form class="px-4 py-3">
-        <div class="form-group">
-          <label for="exampleDropdownFormPassword1">Nonbre</label>
-          <input
-            type="Name"
-            class="form-control"
-            id="exampleDropdownFormName"
-            placeholder="Usiario"
-          >
-            {" "}
-          </input>
-        </div>
-
-        <div class="form-group">
-          <label for="exampleDropdownFormPassword1">Apellidos</label>
-          <input
-            type="Name"
-            class="form-control"
-            id="exampleDropdownFormName"
-            placeholder="Apellido Usuario"
-          >
-            {" "}
-          </input>
-        </div>
-
-        <div class="form-group">
-          <label for="exampleDropdownFormEmail1"> Correo Electronico</label>
-          <input
-            type="email"
-            class="form-control"
-            id="exampleDropdownFormEmail1"
-            placeholder="correo@ejemplo.com"
-          >
-            {" "}
-          </input>
-        </div>
-
-        <div class="form-group">
-          <label for="exampleDropdownFormPassword1">Contraseña</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleDropdownFormPassword1"
-            placeholder="contraseña"
-          >
-            {" "}
-          </input>
-        </div>
-
-        <div class="form-group">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-              {" "}
-            </input>
-            <label class="form-check-label" for="dropdownCheck">
-              Remember me
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">
-          Iniciar Sesión
+    
+    <form> 
+    <div className= "container">
+    <div className="form-group">
+    <label htmlFor="exampleInputEmail1">Nombre</label>
+    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <small id="emailHelp" className="form-text text-muted"></small>
+  </div>
+   <div className="form-group">
+    <label htmlFor="exampleInputEmail1">Apellido</label>
+    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <small id="emailHelp" className="form-text text-muted"></small>
+  </div>
+  <div className="form-group">
+    <label htmlFor="exampleInputEmail1">Correo Electronico</label>
+    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <small id="emailHelp" className="form-text text-muted"></small>
+  </div>
+  <div className="form-group">
+        <label htmlFor="exampleInputPassword1">Contraseña</label>
+        <input type="password" className="form-control" id="exampleInputPassword1"/>
+      </div>
+       <button type="submit" className="Boton-inicio"> <Link className="Botones"  to="PagesFormulario">
+       
+       Registrarse</Link>
+        
         </button>
-      </form>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="http/">
-        New around here? Sign up
-      </a>
-      <a class="dropdown-item" href="http/">
-        Forgot password?
-      </a>
-    </div>
+  </div>
+  
+  </form>
+ 
   );
 }
 export default Description_Registro;

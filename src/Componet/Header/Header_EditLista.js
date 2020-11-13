@@ -16,6 +16,7 @@ function Header_EditLista() {
       <button type="button" className="ayuda">
         Ayuda
       </button>
+      <div className="franjaPP"></div>
     </div>
   );
 }

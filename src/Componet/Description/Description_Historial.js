@@ -3,6 +3,9 @@ import "../../styles.css";
 
 function Description_Historial() {
  return (
+    <div> 
+
+    </div>
 
  );
 }

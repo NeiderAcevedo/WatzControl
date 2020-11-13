@@ -21,6 +21,7 @@
   background-color: #dde0de;
   border-radius: 6px;
   border: 2px solid #000000;
+  margin: 6px;
 }
 .Button_inicioPPR {
   text-decoration: none;
@@ -31,6 +32,7 @@
   background-color: #dde0de;
   border-radius: 6px;
   border: 2px solid #000000;
+  margin: 6px;
 }
 
 .logoHE {
@@ -39,6 +41,10 @@
   display: block;
   margin: auto;
 }
+
+.Botones{
+  color:Black 
+ }
 
 .franja {
   text-align: center;
@@ -127,3 +133,58 @@ margin: auto;
   margin: 7px;
   color: #ffffff;
 }
+
+/* INFORMACION */
+
+.BInformacion{
+margin: 6px;
+text-decoration: none;
+padding: 3px;
+font-weight: 500;
+font-size: 16px;
+color: #000000;
+background-color: #dde0de;
+border-radius: 6px;
+border: 2px solid #000000;
+margin: 6px;
+}
+
+/* INICIAR SESIÓN */
+
+.CIni{
+  text-align: center;
+  height: 50px;
+  width: ;
+  background: #FBC02D;
+}
+
+.volver{
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #dde0de;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.ayuda{
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #dde0de;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.iniseM{
+  margin: 8px;
+}
+

@@ -4,7 +4,7 @@ import Header from "../Componet/Header/Header_inicioPP";
 import Description from "../Componet/Description/Description_InicioPP";
 import Footer from "../Componet/Footer/Footer_InicioPP";
 
-function InicioPP() {
+function Pages_InicioPP() {
   return (
     <>
       <div className="pages1">
@@ -16,4 +16,4 @@ function InicioPP() {
   );
 }
 
-export default InicioPP;
+export default Pages_InicioPP;
