@@ -5,7 +5,7 @@
 .franjaPP {
   width: px;
   height: 100px;
-  background: #FBC02D;
+  background: #fbc02d;
 }
 .NombreAPP {
   font-family: "Times New Roman", Times, serif;
@@ -42,9 +42,9 @@
   margin: auto;
 }
 
-.Botones{
-  color:Black 
- }
+.Botones {
+  color: Black;
+}
 
 .franja {
   text-align: center;
@@ -61,11 +61,11 @@
   margin: 7px;
 }
 
-.recibo{
-width: 180px;
-height: 140px;
-display:block;
-margin: auto;
+.recibo {
+  width: 180px;
+  height: 140px;
+  display: block;
+  margin: auto;
 }
 
 .Texto1 {
@@ -84,15 +84,15 @@ margin: auto;
   margin: 7px;
 }
 
-.bombillo{
-width: 180px;
-height: 150px;
-display: block;
-margin: auto;
+.bombillo {
+  width: 180px;
+  height: 150px;
+  display: block;
+  margin: auto;
 }
 
 .fr {
-  background: #FBC02D;
+  background: #fbc02d;
 }
 
 .redSocial {
@@ -136,29 +136,29 @@ margin: auto;
 
 /* INFORMACION */
 
-.BInformacion{
-margin: 6px;
-text-decoration: none;
-padding: 3px;
-font-weight: 500;
-font-size: 16px;
-color: #000000;
-background-color: #dde0de;
-border-radius: 6px;
-border: 2px solid #000000;
-margin: 6px;
+.BInformacion {
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #dde0de;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
 }
 
 /* INICIAR SESIÓN */
 
-.CIni{
+.CIni {
   text-align: center;
   height: 50px;
   width: ;
-  background: #FBC02D;
+  background: #fbc02d;
 }
 
-.volver{
+.volver {
   margin: 6px;
   text-decoration: none;
   padding: 3px;
@@ -171,7 +171,7 @@ margin: 6px;
   margin: 6px;
 }
 
-.ayuda{
+.ayuda {
   margin: 6px;
   text-decoration: none;
   padding: 3px;
@@ -184,7 +184,45 @@ margin: 6px;
   margin: 6px;
 }
 
-.iniseM{
+.iniseM {
   margin: 8px;
 }
 
+/* REGISTRARSE */
+
+.Boton_inicio {
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #dde0de;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.BRegistro {
+  background: #fbc02d;
+  text-align: center;
+}
+
+/* AYUDAIR */
+
+.AyudaIR {
+  text-align: center;
+}
+
+.ButtonAyuda {
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #dde0de;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}

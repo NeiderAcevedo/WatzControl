@@ -7,7 +7,7 @@ function Description_InicioPP() {
     <div>
       <h3 className="TexCabeza">
         Bienvenid@ a WatzControl, la Aplicación Web donde podrás calcular el
-        consumo y valor de cada electrodoméstico de tu hogar
+        valor y el consumo de cada electrodoméstico de tu hogar
       </h3>
       
       

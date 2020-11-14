@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 
 function Header_Registro() {
   return (
-    <div>
+    <div className="BRegistro">
       <button type="button" className="volver">
       <Link className="Botones" to="/">
    Volver 
 </Link> 
       </button>
       <button type="button" className="ayuda">
-      <Link className="Botones"  to="PagesAyuda">Ayuda</Link>
+      <Link className="Botones"  to="PagesAyudaIR">
+        Ayuda
+      </Link>
       </button>
     </div>
   );

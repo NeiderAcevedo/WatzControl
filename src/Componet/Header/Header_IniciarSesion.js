@@ -12,7 +12,7 @@ return (
 </button>
 
 <button type="button" className="ayuda">
-  <Link className="Botones"  to="PagesAyuda">
+  <Link className="Botones"  to="PagesAyudaIR">
   Ayuda</Link>
 </button>
   </div>
