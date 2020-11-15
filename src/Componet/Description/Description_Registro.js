@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Description_Registro() {
   return (
     
-    <form> 
+    <form className="DI"> 
     <div className= "container">
     <div className="form-group">
     <label htmlFor="exampleInputEmail1">Nombre</label>

@@ -1,42 +1,99 @@
 import React from "react";
 import "../../styles.css";
 
-function Description_PaginaPrincipal(){
- return (
-<div> 
+function Description_PaginaPrincipal() {
+  return (
+    <div className="AligTex">
+      <form className="TodoTexAlig">
+        <div className="DesplegablePP" class="form-row align-items-center">
+          <div class="col-auto my-1">
+            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
+              Preference{" "}
+            </label>
+            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+              <option selected>Seleccione Electrodoméstico</option>
+              <option value="1">Aire Acondicionado</option>
+              <option value="2">Aspiradora</option>
+              <option value="3">Batidora</option>
+              <option value="4">Cafetera Eléctrica</option>
+              <option value="5">Cepillo Eléctrico</option>
+              <option value="6">Freidora</option>
+              <option value="7">Horno Eléctrico</option>
+              <option value="8">Lavadora</option>
+              <option value="9">Tostadora</option>
+              <option value="10">Router Internet</option>
+              <option value="11">Sandwichera</option>
+              <option value="12">Lustradora</option>
+              <option value="13">Microondas</option>
+              <option value="14">MiniBar</option>
+              <option value="15">Olla Arrocera</option>
+              <option value="16">Nevera</option>
+              <option value="17">Ventilador</option>
+              <option value="18">Celular</option>
+              <option value="19">Cocinas de Vitrocerámica</option>
+              <option value="20">Barra de Sonido</option>
+              <option value="21">Computador Portatil</option>
+              <option value="22">Computador de Mesa</option>
+              <option value="23">Televisor</option>
+              <option value="24">Proyector</option>
+              <option value="25">DVD</option>
+              <option value="26">Impresora</option>
+              <option value="27">Tenaza Risadora de Cabello</option>
+              <option value="28">Secador Pelo</option>
+              <option value="29">Maquina de Afeitar</option>
+              <option value="30">Plancha Cabello</option>
+            </select>
+          </div>
+        </div>
 
-  
-  <div className="dropdown">
-    <button className="btn btn-secondary dropdown-toggle" type="button" 
-      id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" 
-       aria-expanded="false">
-      Introduzca Tiempo
-     </button>
+        <div className="DesplegablePP" class="form-row align-items-center">
+          <div class="col-auto my-1">
+            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
+              Preference
+            </label>
+            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+              <option selected>Seleccione Tipo de Tiempo</option>
+              <option value="1">Horas</option>
+              <option value="2">Minutos</option>
+            </select>
+          </div>
+        </div>
 
-      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a className="dropdown-item" href="/">Minutos</a>
-        <a className="dropdown-item" href="/">Horas</a>
-      </div>
+        <div className="CampoTex" class="form-group">
+          <label for="exampleFormControlTextarea1">
+            Introduzca Tiempo de Uso
+          </label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="1"
+          ></textarea>
+        </div>
+
+        <div className="DesplegablePP" class="form-row align-items-center">
+          <div class="col-auto my-1">
+            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
+              Preference
+            </label>
+            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+              <option selected>Seleccione Tipo De Moneda</option>
+              <option value="1">Usd-Dolar</option>
+              <option value="2">Col-PesosCol</option>
+            </select>
+          </div>
+        </div>
+
+        <div className="CampoTex" class="form-group">
+          <label for="exampleFormControlTextarea1">Total Consumo</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="1"
+          ></textarea>
+        </div>
+      </form>
     </div>
-     <p> </p>
-
-    <div className="dropdown">
-    <button className="btn btn-secondary dropdown-toggle" type="button" 
-    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" 
-    aria-expanded="false">
-    Tipo De Moneda
-     </button>
-
-    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-       <a className="dropdown-item" href="/"> COL </a>
-       <a className="dropdown-item" href="/"> USD </a>
-     </div>
-     </div>
-     <p> </p>
-
-
-</div>
- );
+  );
 }
 
-export default Description_PaginaPrincipal
+export default Description_PaginaPrincipal;

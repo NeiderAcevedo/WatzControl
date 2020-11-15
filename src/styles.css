@@ -185,10 +185,34 @@
 }
 
 .iniseM {
-  margin: 8px;
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 50px;
 }
 
+
 /* REGISTRARSE */
+
+ .DI{
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 50px;
+  
+ }
 
 .Boton_inicio {
   margin: 6px;
@@ -226,3 +250,38 @@
   border: 2px solid #000000;
   margin: 6px;
 }
+
+/* Pagina Principal */
+
+.AligTex {
+  text-align: center;
+}
+
+.DesplegablePP {
+  margin: 10px;
+  width: 300px;
+}
+
+.CampoTex {
+  width: 50;
+  right: 50;
+  text-align: center;
+}
+
+.cerrarS {
+  margin: 6px;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #dde0de;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.PP {
+  text-align: center;
+}
+
