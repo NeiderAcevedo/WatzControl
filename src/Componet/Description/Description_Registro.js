@@ -8,12 +8,13 @@ function Description_Registro() {
     <div className= "container">
     <div className="form-group">
     <label htmlFor="exampleInputEmail1">Nombre</label>
-    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="name" className="form-control" 
+    id="exampleInputEmail1" aria-describedby="emailHelp"/>
     <small id="emailHelp" className="form-text text-muted"></small>
   </div>
    <div className="form-group">
     <label htmlFor="exampleInputEmail1">Apellido</label>
-    <input type="email" className="form-control" 
+    <input type="name" className="form-control" 
     id="exampleInputEmail1" aria-describedby="emailHelp"/>
     <small id="emailHelp" className="form-text text-muted"></small>
   </div>

@@ -5,8 +5,10 @@ function Description_PaginaPrincipal() {
   return (
     <div className="AligTex">
       <form className="TodoTexAlig">
-        <div className="DesplegablePP" class="form-row align-items-center">
-          <div class="col-auto my-1">
+        <div className="DesplegablePP" class="">
+         <div class="row">
+         <div class="col-1"> </div>
+          <div class="col-10 my-2">
             <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
               Preference{" "}
             </label>
@@ -39,14 +41,15 @@ function Description_PaginaPrincipal() {
               <option value="25">DVD</option>
               <option value="26">Impresora</option>
               <option value="27">Tenaza Risadora de Cabello</option>
-              <option value="28">Secador Pelo</option>
+              <option value="28">Secador Cabello</option>
               <option value="29">Maquina de Afeitar</option>
               <option value="30">Plancha Cabello</option>
             </select>
           </div>
         </div>
-
-        <div className="DesplegablePP" class="form-row align-items-center">
+        <div class="col-1"> </div>
+       </div>
+        <div className="DesplegablePP" class="">
           <div class="col-auto my-1">
             <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
               Preference
@@ -59,18 +62,9 @@ function Description_PaginaPrincipal() {
           </div>
         </div>
 
-        <div className="CampoTex" class="form-group">
-          <label for="exampleFormControlTextarea1">
-            Introduzca Tiempo de Uso
-          </label>
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="1"
-          ></textarea>
-        </div>
+        
 
-        <div className="DesplegablePP" class="form-row align-items-center">
+        <div className="DesplegablePP" class="">
           <div class="col-auto my-1">
             <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
               Preference
@@ -83,14 +77,7 @@ function Description_PaginaPrincipal() {
           </div>
         </div>
 
-        <div className="CampoTex" class="form-group">
-          <label for="exampleFormControlTextarea1">Total Consumo</label>
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="1"
-          ></textarea>
-        </div>
+        
       </form>
     </div>
   );
