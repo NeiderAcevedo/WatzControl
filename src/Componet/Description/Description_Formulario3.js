@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 function Description_Formulario3 (){
   return(
    <div>
-    
+
+    <div className="SeleccionFormulario">
+    <h3 className="Hogar"> ENTRETENIMIENTO </h3>
     <div class="form-check">
           <input
             class="form-check-input"
@@ -294,13 +296,105 @@ function Description_Formulario3 (){
           </label>
         </div>
         
+          <h3 className="Hogar"> Belleza </h3>
+        
+          <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Tenaza Rizadora de Cabello
+          </label>
+        </div> 
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Cecador Cabello
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Plancha Cabello
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Maquina De Afeitar
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Depilador Electrico
+          </label>
+        </div> 
+
+         <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Alizadores
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Masajeadores
+          </label>
+        </div>
+        
+                             
+
+        </div>
         <div>
         <button type="button" className="Siguiente">
-          <Link classname="Botones" to="">
+          <Link classname="Botones" to="PagesPPrincipal">
             Siguiente
           </Link>
         </button>
       </div>
+
+     
+      
 
    </div>
 

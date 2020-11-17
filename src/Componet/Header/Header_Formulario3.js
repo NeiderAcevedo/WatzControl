@@ -12,12 +12,14 @@ function Header_Formulario3() {
       </div>
       
       <button type="button" className="volver">
-      <Link classname="Botones" to="PagesFormulario">
+      <Link classname="Botones" to="PagesFormulario2">
         Atrás
       </Link>
       </button>
       <button type="button" className="ayuda">
+      <Link classname="Botones" to="PagesAyudaIR">
         Ayuda
+      </Link>
       </button>
       <div className="franjaPP"></div>
     </div>

@@ -16,8 +16,11 @@ function Header_Formulario2() {
         Atrás
       </Link>
       </button>
+
       <button type="button" className="ayuda">
+      <Link classname="Botones" to="PagesAyudaIR">
         Ayuda
+      </Link>
       </button>
       <div className="franjaPP"></div>
     </div>

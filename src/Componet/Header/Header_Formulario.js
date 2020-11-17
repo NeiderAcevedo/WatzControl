@@ -17,7 +17,9 @@ function Header_Formulario() {
       </Link>
       </button>
       <button type="button" className="ayuda">
+      <Link classname="Botones" to="PagesAyudaIR">
         Ayuda
+        </Link>
       </button>
       <div className="franjaPP"></div>
     </div>
