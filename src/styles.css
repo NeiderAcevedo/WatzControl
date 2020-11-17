@@ -284,6 +284,12 @@
 
      /* FormularioP1 */
 
+     
+.PP{
+text-align: center;
+}
+
+
 .forcenter{
   text-align: center;
 }
@@ -321,8 +327,15 @@
 
 .FormuText{
   text-align: justify;
+  margin: 7px;
 }
 
 .Nomcomlete{
   width: 300px;
+}
+
+/* FORMULARIO2 */
+
+.Hogar{
+  text-align: center;
 }

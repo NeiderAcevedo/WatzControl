@@ -17,6 +17,7 @@ import Pages_RegistroU from "../src/Pages/Pages_RegistroU";
 import Pages_SNuevoP from "../src/Pages/Pages_SNuevoP";
 import Pages_Informacion from "../src/Pages/Pages_Informacion";
 import Pages_AyudaIR from "../src/Pages/Pages_AyudaIR";
+import Pages_Formulario2 from "../src/Pages/Pages_Formulario2";
 
 class App extends React.Component {
   render() {
@@ -34,15 +35,12 @@ class App extends React.Component {
           <Route exact path="/PagesNotiError" component={Pages_NotiError} />
           <Route exact path="/PagesPPrincipal" component={Pages_PPrincipal} />
           <Route exact path="/PagesPorQ" component={Pages_PorQ} />
-          <Route
-            exact
-            path="/PagesRecuHistorial"
-            component={Pages_RecuHistorial}
-          />
+          <Route exact path="/PagesRecuHistorial" component={Pages_RecuHistorial}/>
           <Route exact path="/PagesRegistroU" component={Pages_RegistroU} />
           <Route exact path="/PagesSNuevoP" component={Pages_SNuevoP} />
           <Route exact path="/PagesInformacion" component={Pages_Informacion} />
           <Route exact path="/PagesAyudaIR" component={Pages_AyudaIR} />
+          <Route exact path="/PagesFormulario2" component={Pages_Formulario2}/>
         </Switch>
       </BrowserRouter>
     );

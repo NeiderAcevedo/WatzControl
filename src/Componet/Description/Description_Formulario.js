@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles.css";
+import { Link } from "react-router-dom";
 
 function Description_Formulario() {
   return (
@@ -30,97 +31,15 @@ function Description_Formulario() {
   </div>
 </div>
   
-   <div className="FormuText">
-  <h5>  
-     A Continuación tendrás que  llenar el formulario 
-     de acuerdo a los electrodomésticos que 
-     tengas en tu hogar.
-  </h5>
-
-  <h >
-     Es de suma importancia diligenciar  el 
-     formulario correctamente para así 
-     prestar un muy buen servicio.
-  </h>
-  </div>
   
-<div className="SeleccionFormulario">
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-   Aire Acondicionado
-  </label>
-</div>
 
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Armario Climatisador De Vino
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Aspiradora
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Batidora
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Cafetera Eléctrica
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Campana Extractora
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Cepillo Eléctrico
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Estufa 
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Freidora
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-  <label class="form-check-label" for="defaultCheck1">
-    Hervidor Eléctrico de Agua
-  </label>
-</div>
-</div>
-
-<div> 
-<button type="button" className="Siguiente">
-       Siguiente
-      </button>
-</div>
+  <div> 
+    <button type="button" className="Siguiente">
+    <Link classname="Botones" to="PagesFormulario2">
+      Siguiente
+    </Link>
+    </button>
+   </div>
 </div>
 );
 }
