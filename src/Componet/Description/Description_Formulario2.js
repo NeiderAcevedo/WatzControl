@@ -258,7 +258,68 @@ function Description_Formulario2 (){
     Extractor Olores
   </label>
 </div>
+       
+         {/*  ENTRETENIMIENTO */}
 
+<h2 className="Hogar"> ENTRETENIMIENTO </h2>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+  <label class="form-check-label" for="defaultCheck1">
+    Extractor Olores
+  </label>
+</div>
+
+     
 </div>
 
    <div> 
