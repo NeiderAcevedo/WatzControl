@@ -18,6 +18,7 @@ import Pages_SNuevoP from "../src/Pages/Pages_SNuevoP";
 import Pages_Informacion from "../src/Pages/Pages_Informacion";
 import Pages_AyudaIR from "../src/Pages/Pages_AyudaIR";
 import Pages_Formulario2 from "../src/Pages/Pages_Formulario2";
+import Pages_Formulario3 from "../src/Pages/Pages_Formulario3";
 
 class App extends React.Component {
   render() {
@@ -41,6 +42,8 @@ class App extends React.Component {
           <Route exact path="/PagesInformacion" component={Pages_Informacion} />
           <Route exact path="/PagesAyudaIR" component={Pages_AyudaIR} />
           <Route exact path="/PagesFormulario2" component={Pages_Formulario2}/>
+          <Route exact path="/PagesFormulario3" component={Pages_Formulario3}/>
+
         </Switch>
       </BrowserRouter>
     );
