@@ -1,18 +1,20 @@
 import React from "react";
 import "../../styles.css";
+import { Link } from "react-router-dom";
 
 function Description_PaginaPrincipal() {
   return (
-    <div className="AligTex">
-      <form className="TodoTexAlig">
+    <div >
+      <form className="AligTex">
         <div className="DesplegablePP" class="">
-         <div class="row">
+
+         <div  class="row">
          <div class="col-1"> </div>
           <div class="col-10 my-2">
             <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
               Preference{" "}
             </label>
-            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <select  className="PDI" class="custom-select mr-sm-1" id="inlineFormCustomSelect">
               <option selected>Seleccione Electrodoméstico</option>
               <option value="1">Aire Acondicionado</option>
               <option value="2">Aspiradora</option>
@@ -49,19 +51,25 @@ function Description_PaginaPrincipal() {
         </div>
         <div class="col-1"> </div>
        </div>
+
+
         <div className="DesplegablePP" class="">
           <div class="col-auto my-1">
             <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
               Preference
             </label>
-            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <select className="PDI" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
               <option selected>Seleccione Tipo de Tiempo</option>
               <option value="1">Horas</option>
               <option value="2">Minutos</option>
             </select>
           </div>
         </div>
-
+       
+        <div className="PaginPin">
+        <input className="NombreApellido" type="text" placeholder="Introduzca Tiempo" />
+        <p> </p>
+      </div>
         
 
         <div className="DesplegablePP" class="">
@@ -69,7 +77,7 @@ function Description_PaginaPrincipal() {
             <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
               Preference
             </label>
-            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <select className="PDI" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
               <option selected>Seleccione Tipo De Moneda</option>
               <option value="1">Usd-Dolar</option>
               <option value="2">Col-PesosCol</option>
@@ -77,8 +85,21 @@ function Description_PaginaPrincipal() {
           </div>
         </div>
 
-        
+        <div className="PaginPin">
+        <input className="NombreApellido" type="text" placeholder="" />
+        <p> </p>
+      </div>
+
+    
+
       </form>
+
+      <div> 
+      <button type="button" className="Siguiente">
+      Calcular
+      </button>
+      </div>
+
     </div>
   );
 }
