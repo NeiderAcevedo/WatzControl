@@ -197,10 +197,9 @@
   margin: 50px;
 }
 
-
 /* REGISTRARSE */
 
- .DI{
+.DI {
   margin: 6px;
   text-decoration: none;
   padding: 3px;
@@ -211,8 +210,7 @@
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 50px;
-  
- }
+}
 
 .Boton_inicio {
   margin: 6px;
@@ -253,13 +251,11 @@
 
 /* Pagina Principal */
 
-.PaginPin{
-  text-align: ;
-margin: 6px;
+.PaginPin {
+  margin: 6px;
 }
 
-
-.AligTex{
+.AligTex {
   text-align: center;
   margin: 6px;
   text-decoration: none;
@@ -271,7 +267,6 @@ margin: 6px;
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 6px;
-
 }
 
 .DesplegablePP {
@@ -298,25 +293,21 @@ margin: 6px;
   margin: 6px;
 }
 
+/* FormularioP1 */
 
-
-     /* FormularioP1 */
-
-     
-.PP{
-text-align: center;
-}
-
-
-.forcenter{
+.PP {
   text-align: center;
 }
 
-.FormularioPart1{
- margin: 8px;
+.forcenter {
+  text-align: center;
 }
 
-.Siguiente{
+.FormularioPart1 {
+  margin: 8px;
+}
+
+.Siguiente {
   margin: 6px;
   text-decoration: none;
   padding: 3px;
@@ -327,10 +318,9 @@ text-align: center;
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 6px;
-
 }
 
-.SeleccionFormulario{
+.SeleccionFormulario {
   text-decoration: none;
   padding: 3px;
   font-weight: 500;
@@ -340,20 +330,47 @@ text-align: center;
   border-radius: 0px;
   border: 2px solid #000000;
   margin: 6px;
-
 }
 
-.FormuText{
+.FormuText {
   text-align: justify;
   margin: 7px;
 }
 
-.Nomcomlete{
+.Nomcomlete {
   width: 300px;
 }
 
 /* FORMULARIO2 */
 
-.Hogar{
+.Hogar {
   text-align: center;
+}
+
+/* AYUDA */
+
+.BotonesAyuda {
+}
+
+.SoyNuevo {
+  margin: 8px;
+  text-align: justify;
+}
+
+.jp {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.NuevoPagH2 {
+  font-family: "Times New Roman", Times, serif;
 }
