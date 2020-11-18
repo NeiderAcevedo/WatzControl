@@ -27,7 +27,7 @@ function Description_NotiER() {
       <h2 className="NotiError">
         {" "}
         Por Favor Escribir En El Campo, Los Posibles Errores o Inconvenientes
-        Que Presenta El Programa{" "}
+        Que Presenta El Programa
       </h2>
 
       <p> </p>
