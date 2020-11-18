@@ -3,8 +3,10 @@ import "../../styles.css";
 
 function Description_PorQ() {
   return (
-    <div>
-      <h1 className="PorQH1"> ¿Por Qué Debo Registrarme? </h1>
+    <div  className="SoyNuevo">
+      
+      <h1 className="NuevoPagH2"> ¿Por Qué Debo Registrarme? </h1>
+      <div className="jp">
       <p classname="PorQP1">
         El usuario debe hacer un registro para llevar control del registro, y
         tener un historial de uso de la página. y en caso tal que el usuario
@@ -16,6 +18,8 @@ function Description_PorQ() {
         * Si el usuario no hace el debido registro, no podrá acceder a la
         página.
       </p>
+      </div>
+
     </div>
   );
 }
