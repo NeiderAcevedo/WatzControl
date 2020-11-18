@@ -369,8 +369,11 @@
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 6px;
+  text-align: justify;
 }
 
 .NuevoPagH2 {
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
+

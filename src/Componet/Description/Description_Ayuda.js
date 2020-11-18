@@ -18,7 +18,7 @@ function Description_Ayuda() {
       </button>
 
       <button type="button" className="ButtonAyuda">
-        <Link classname="Botones" to="PagesInformacion">
+        <Link classname="Botones" to="PagesInfoPagina">
           Información De La Página
         </Link>
       </button>

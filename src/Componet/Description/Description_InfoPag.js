@@ -4,10 +4,10 @@ import "../../styles.css";
 function Description_InfoPag() {
   return (
     <div>
-      <div className="InfoH1">
+      <div className="NuevoPagH2">
         <h1> Información De La Página </h1>
       </div>
-      <div className="InfoD">
+      <div className="jp">
         Esta página se llama WatzControl fue creada para para los habitantes del
         corregimiento de Santa Elena. Esta página nace con el objetivo de que
         los habitantes del corregimiento puedan tener conocimiento de todo el
