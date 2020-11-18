@@ -5,6 +5,28 @@ import { Link } from "react-router-dom";
 function Description_PaginaPrincipal() {
   return (
     <div >
+     
+     <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Menú</option>
+        
+        <option value="1">
+          Historial
+        </option>
+
+        <option value="2">
+          Consumo Mes
+        </option>
+
+        <option value="3"> 
+         Editar Lista
+        </option>
+      </select>
+    </div>
+    </div>
+
       <form className="AligTex">
         <div className="DesplegablePP" class="">
 
@@ -89,16 +111,14 @@ function Description_PaginaPrincipal() {
         <input className="NombreApellido" type="text" placeholder="" />
         <p> </p>
       </div>
-
-    
-
-      </form>
-
+     
       <div> 
       <button type="button" className="Siguiente">
       Calcular
       </button>
       </div>
+
+      </form>
 
     </div>
   );
