@@ -1,15 +1,16 @@
 import React from "react";
 import "../../styles.css";
+import { Link } from "react-router-dom";
 
 function Description_NotiER() {
   return (
-    <div>
+    <div className="noterr">
       <div className="NotiH1">
-        <h1> Notificar Error </h1>
-        <h2 className="NotiH2">
+        <h1 className="noteRR"> Notificar Error </h1>
+        <h className="NotiH2">
           Notificar un error si algunas de las funcionalidades de la página
           andan mal.
-        </h2>
+        </h>
       </div>
 
       <div className="Recu1">
@@ -24,22 +25,25 @@ function Description_NotiER() {
         </div>
       </div>
 
-      <h2 className="NotiError">
+      <h className="NotiError">
         {" "}
         Por Favor Escribir En El Campo, Los Posibles Errores o Inconvenientes
         Que Presenta El Programa
-      </h2>
+      </h>
 
       <p> </p>
       <input
+        className="posterr" 
         class="form-control form-control-sm"
         ntype="text"
-        placeholder="Ubicacion"
+        placeholder="Posibles Errores"
       />
       <p> </p>
 
       <button type="button" className="Button_Noti">
-        Notificar Error
+        <Link classname="Botones" to="PagesAyuda">
+          Notificar Error
+        </Link>
       </button>
     </div>
   );

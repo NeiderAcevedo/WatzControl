@@ -114,7 +114,9 @@ function Description_PaginaPrincipal() {
      
       <div> 
       <button type="button" className="Siguiente">
+      <Link classname="Botones" to="PagesAyuda">
       Calcular
+      </Link>
       </button>
       </div>
 

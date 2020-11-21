@@ -24,7 +24,7 @@ function Description_Ayuda() {
       </button>
 
       <button type="button" className="ButtonAyuda">
-        <Link classname="Botones" to="PagesNotiError2">
+        <Link classname="Botones" to="PagesNotiError">
           Notificar Error
         </Link>
       </button>

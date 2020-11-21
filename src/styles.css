@@ -358,7 +358,8 @@
 }
 
 .jp {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-decoration: none;
   padding: 3px;
   font-weight: 500;
@@ -376,8 +377,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-
-.Res{
+.Res {
   text-align: center;
   text-decoration: none;
   padding: 3px;
@@ -388,10 +388,9 @@
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 6px;
-  
 }
 
-.Button_RecuHis{
+.Button_RecuHis {
   text-decoration: none;
   padding: 3px;
   font-weight: 500;
@@ -403,7 +402,47 @@
   margin: 6px;
 }
 
-.RecuHH1{
-  font-family: 'Times New Roman', Times, serif
+.RecuHH1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
+.noterr {
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 8px;
+
+}
+
+.Recu1 {
+  width: 350px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+}
+
+.posterr {
+  width: 350px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+}
+
+.Button_Noti {
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #e4e4e4;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.noteRR {
+  text-align: center;
+}
