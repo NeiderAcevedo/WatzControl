@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Description_Ayuda() {
   return (
-    <div className="BotonesAyuda">
+    <div className="">
       <button type="button" className="ButtonAyuda">
         <Link classname="Botones" to="PagesSNuevoP">
           Soy Nuevo En La Página

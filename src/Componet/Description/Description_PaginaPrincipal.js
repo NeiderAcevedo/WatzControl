@@ -5,27 +5,19 @@ import { Link } from "react-router-dom";
 function Description_PaginaPrincipal() {
   return (
     <div >
-     
-     <div class="form-row align-items-center">
-    <div class="col-auto my-1">
-      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-        <option selected>Menú</option>
-        
-        <option value="1">
-          Historial
-        </option>
-
-        <option value="2">
-          Consumo Mes
-        </option>
-
-        <option value="3"> 
-         Editar Lista
-        </option>
-      </select>
+       
+    <div class="btn-group" role="group">
+    <button  /* className="buttonDes" */ id="btnGroupDrop1" type="button" 
+      class="btn btn-secondary dropdown-toggle" 
+       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Ajustes
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Dropdown link</a>
+      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Dropdown link</a>
+      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Dropdown link</a>
     </div>
-    </div>
+  </div>
 
       <form className="AligTex">
         <div className="DesplegablePP" class="">
@@ -115,7 +107,7 @@ function Description_PaginaPrincipal() {
      
       <div> 
       <button type="button" className="Siguiente">
-      <Link classname="Botones" to="PagesAyuda">
+      <Link classname="Botones" to="PagesPPrincipal">
       Calcular
       </Link>
       </button>

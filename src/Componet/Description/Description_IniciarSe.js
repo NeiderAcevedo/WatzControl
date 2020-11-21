@@ -37,11 +37,11 @@ function Description_InicioSe() {
 
       </form>
     </div>
-
-    <a className="LinkR" href="https//">
-          Todavía No Tengo Una Cuenta!!
+    <div className="render">
+    <a className="LinkR" href="https://kn2hk.csb.app/PagesRegistroU">
+          Crear Cuenta
         </a>
-
+    </div>
   </div>
   );
 }

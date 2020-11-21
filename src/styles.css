@@ -154,7 +154,6 @@
 .CIni {
   text-align: center;
   height: 50px;
-  width: ;
   background: #fbc02d;
 }
 
@@ -349,8 +348,6 @@
 
 /* AYUDA */
 
-.BotonesAyuda {
-}
 
 .SoyNuevo {
   margin: 8px;
@@ -447,4 +444,12 @@
   text-align: center;
 }
 
+.render{
+ text-align: center;
+ margin: 6px;
+}
 
+/* .buttonDes{
+ margin: 6px;
+ width: 100px;
+} */

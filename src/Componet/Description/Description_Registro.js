@@ -3,7 +3,7 @@ import "../../styles.css";
 import { Link } from "react-router-dom";
 function Description_Registro() {
   return (
-    
+    <div>
     <form className="DI"> 
     <div className= "container">
     <div className="form-group">
@@ -38,6 +38,14 @@ function Description_Registro() {
   </div>
   
   </form>
+  
+    <div className="render">
+    <a className="LinkR" href="https://kn2hk.csb.app/iniciarSe">
+          Ya Tengo Una Cuenta!!
+        </a>
+    </div>  
+
+  </div>
  
   );
 }
