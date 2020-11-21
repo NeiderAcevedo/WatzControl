@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 function Description_InicioSe() {
   return (
+  <div className=" "> 
     <div className="BackG">
       <form className="iniseM">
         <div className="container">
@@ -33,8 +34,15 @@ function Description_InicioSe() {
             Iniciar
           </Link>
         </button>
+
       </form>
     </div>
+
+    <a className="LinkR" href="https//">
+          Todavía No Tengo Una Cuenta!!
+        </a>
+
+  </div>
   );
 }
 

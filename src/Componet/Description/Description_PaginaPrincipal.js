@@ -108,7 +108,8 @@ function Description_PaginaPrincipal() {
         </div>
 
         <div className="PaginPin">
-        <input className="NombreApellido" type="text" placeholder="" />
+          
+        <input  className="NombreApellido" type="text" placeholder="Tiempo Total" />
         <p> </p>
       </div>
      
