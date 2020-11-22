@@ -15,7 +15,7 @@ function Description_PaginaPrincipal() {
     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
       <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Editar Cuenta</a>
       <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Historial Mes</a>
-      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Historial link</a>
+      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Historial</a>
     </div>
   </div>
 
