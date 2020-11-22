@@ -6,8 +6,8 @@ function Description_PaginaPrincipal() {
   return (
     <div >
        
-    <div class="btn-group" role="group">
-    <button  /* className="buttonDes" */ id="btnGroupDrop1" type="button" 
+    <div className="BTNPP" class="btn-group" role="group">
+    <button  id="btnGroupDrop1" type="button" 
       class="btn btn-secondary dropdown-toggle" 
        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Ajustes
