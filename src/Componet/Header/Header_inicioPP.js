@@ -5,7 +5,7 @@ import logo from "../../images/logo.jpg";
 
 function Header_inicioPP() {
   return (
-    <div>
+    <div >
       <h1 className="NombreAPP">WatzControl</h1>
 
       <div className="logoH">

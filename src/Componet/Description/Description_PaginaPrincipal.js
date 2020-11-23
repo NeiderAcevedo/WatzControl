@@ -4,20 +4,31 @@ import { Link } from "react-router-dom";
 
 function Description_PaginaPrincipal() {
   return (
-    <div >
+  <div  >
+    <div className="BNTN">
+      
+     <div class="btn-group" role="group" aria-label="First group">
        
-    <div className="BTNPP" class="btn-group" role="group">
-    <button  id="btnGroupDrop1" type="button" 
-      class="btn btn-secondary dropdown-toggle" 
-       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Ajustes
-    </button>
-    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesHistorial">Editar Cuenta</a>
-      <a class="dropdown-item" href="https://kn2hk.csb.app/">Historial Mes</a>
-      <a class="dropdown-item" href="https://kn2hk.csb.app/">Historial</a>
+       <button type="button" class="btn btn-secondary">
+         <Link classname="Botones" to="PagesEditLista">
+          Editar Cuenta
+        </Link>
+       </button>
+
+       <button type="button" class="btn btn-secondary">
+         <Link classname="BotoN" to="pagesConsumoMe">
+           Historial Mes
+         </Link>
+       </button>
+
+       <button type="button" class="btn btn-secondary">
+         <Link classname="BotoN" to="PagesHistorial">
+          Historial
+         </Link>
+       </button>
+         
+     </div>
     </div>
-  </div>
 
       <form className="AligTex">
         <div className="DesplegablePP" class="">

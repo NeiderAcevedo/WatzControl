@@ -43,7 +43,7 @@
 }
 
 .Botones {
-  color: Black;
+  color: rgb(0, 0, 0);
 }
 
 .franja {
@@ -450,7 +450,7 @@
 }
 
 .BTNPP{
- mtext-decoration: none;
+ text-decoration: none;
  padding: 3px;
  font-weight: 500;
  font-size: 16px;
@@ -459,5 +459,19 @@
  border-radius: 6px;
  border: 2px solid #000000;
  margin: 8px;
+
+}
+
+
+
+.btn-secondary{
+ color: #000000;
+ background-color: #ffffff;
+ border: 2px solid #000000;
+ margin: 6px;
+ 
+}
+
+.BotoN{
 
 }
