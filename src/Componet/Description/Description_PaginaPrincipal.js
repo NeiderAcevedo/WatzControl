@@ -13,9 +13,9 @@ function Description_PaginaPrincipal() {
         Ajustes
     </button>
     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Editar Cuenta</a>
-      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Historial Mes</a>
-      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesPPrincipal">Historial</a>
+      <a class="dropdown-item" href="https://kn2hk.csb.app/PagesHistorial">Editar Cuenta</a>
+      <a class="dropdown-item" href="https://kn2hk.csb.app/">Historial Mes</a>
+      <a class="dropdown-item" href="https://kn2hk.csb.app/">Historial</a>
     </div>
   </div>
 
