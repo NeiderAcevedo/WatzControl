@@ -1,40 +1,105 @@
 import React from "react";
 import "../../styles.css";
 
+
+
 function Description_Historial() {
+  
   return (
     <div>
       
-
      <div className="">
       <table class="table">
         <thead class="thead-dark">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Artefacto</th>
+            <th scope="col">Tiempo</th>
+            <th scope="col">Kwh</th>
+            <th scope="col">Costo</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="row">Nevera</th>
+            <td>720 h</td>
+            <td>50</td>
+            <td>17.000</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th scope="row">Celular</th>
+            <td>90 h</td>
+            <td>20</td>
+            <td>7.200</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
           </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+          <tr>
+            <th scope="row">Computador</th>
+            <td>780 h</td>
+            <td>45</td>
+            <td>15.400</td>
+          </tr>
+
+
+
         </tbody>
       </table>
       </div>
