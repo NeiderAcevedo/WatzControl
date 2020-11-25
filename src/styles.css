@@ -348,7 +348,6 @@
 
 /* AYUDA */
 
-
 .SoyNuevo {
   margin: 8px;
   text-align: justify;
@@ -413,7 +412,6 @@
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 8px;
-
 }
 
 .Recu1 {
@@ -444,34 +442,32 @@
   text-align: center;
 }
 
-.render{
- text-align: center;
- margin: 6px;
+.render {
+  text-align: center;
+  margin: 6px;
 }
 
-.BTNPP{
- text-decoration: none;
- padding: 3px;
- font-weight: 500;
- font-size: 16px;
- color: #000000;
- background-color: #ffffff;
- border-radius: 6px;
- border: 2px solid #000000;
- margin: 8px;
-
+.BTNPP {
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 8px;
 }
 
+.btn-secondary {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  margin: 6px;
+}
 
-
-.btn-secondary{
- color: #000000;
- background-color: #ffffff;
- border: 2px solid #000000;
- margin: 6px;
+.TablaHistorial {
+  
  
-}
-
-.BotoN{
-
+  
 }

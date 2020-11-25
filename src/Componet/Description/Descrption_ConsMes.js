@@ -7,8 +7,6 @@ function Description_ConsMes (){
    <div>
     
 
-
-
    </div>
 
   );
