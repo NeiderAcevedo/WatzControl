@@ -3,6 +3,8 @@ import "../../styles.css";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.jpg";
 
+
+
 function Header_PaginaP() {
   return (
     <div className="PP">
