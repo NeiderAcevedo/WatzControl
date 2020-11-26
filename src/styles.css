@@ -457,6 +457,7 @@
   border-radius: 6px;
   border: 2px solid #000000;
   margin: 8px;
+  text-align: center;
 }
 
 .btn-secondary {
@@ -466,8 +467,64 @@
   margin: 6px;
 }
 
-.TablaHistorial {
-  
- 
-  
+.EditLista {
+  text-align: center;
+}
+
+.EF {
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 8px;
+}
+
+.TEXTOCEVT {
+  text-align: justify;
+  margin: 8px;
+}
+
+.CAPINELEC {
+  margin: 8px;
+}
+
+.GA {
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.BTNCEN {
+  text-align: center;
+}
+
+.contenedor {
+  text-align: center;
+  margin: 8px;
+}
+
+.conmesmm {
+  text-decoration: none;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 6px;
+}
+
+.BNTN {
+  text-align: center;
 }

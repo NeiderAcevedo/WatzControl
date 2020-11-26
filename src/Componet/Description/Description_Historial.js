@@ -1,40 +1,63 @@
 import React from "react";
 import "../../styles.css";
-import {Bar} from "react-chartjs-2";
-
+import { Bar } from "react-chartjs-2";
 
 function Description_Historial() {
-  const data={
-    labels: 
-       ["Enero", "Febrero", "Marzo","Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre","Octubre", "Noviembre", "Diciembre"],
-          datasets:[{
-          label: "Consumo",
-          backgroundColor: "#FFEB3B" ,
-          borderColor:"black",
-          borderWidth:1,
-          hoverBackgroundColor:"#FFF9C4",
-          hoverBorderColor:"#212121",
-          data: [50.000, 48.500, 47.000, 51.000, 48.000, 45.000, 49.000, 60.000, 50.250, 44.000, 42.000, 48.200]
-        }]
-      };
-      const opciones={
-         maintainsAspectRatio: false,
-         responsive: true
+  const data = {
+    labels: [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio",
+      "Julio",
+      "Agosto",
+      "Septiembre",
+      "Octubre",
+      "Noviembre",
+      "Diciembre"
+    ],
+    datasets: [
+      {
+        label: "Consumo",
+        backgroundColor: "#FFEB3B",
+        borderColor: "black",
+        borderWidth: 1,
+        hoverBackgroundColor: "#FFF9C4",
+        hoverBorderColor: "#212121",
+        data: [
+          50.0,
+          48.5,
+          47.0,
+          51.0,
+          48.0,
+          45.0,
+          49.0,
+          60.0,
+          50.25,
+          44.0,
+          42.0,
+          48.2
+        ]
       }
-
-    
+    ]
+  };
+  const opciones = {
+    maintainsAspectRatio: false,
+    responsive: true
+  };
 
   return (
     <div>
+      <div
+        className="DiagramaBarras"
+        style={{ width: "100%", height: "250px" }}
+      >
+        <Bar data={data} options={opciones} />
+      </div>
 
-       <div className="DiagramaBarras" style={{width: "100%", height:"250px"}} > 
-         <Bar data={data} options={opciones} />   
-       </div>
-      
-      
-
-    
-      <div className="TablaHistorial" style={{width: "99%", height:"900px"}}>
+      <div className="TablaHistorial" style={{ width: "99%", height: "900px" }}>
         <table class="table">
           <thead class="thead-dark">
             <tr>
@@ -129,7 +152,6 @@ function Description_Historial() {
               <td>266.7</td>
               <td>59.500</td>
             </tr>
-
           </tbody>
         </table>
       </div>

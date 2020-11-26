@@ -19,6 +19,7 @@ function Description_Formulario2() {
 
       <div className="SeleccionFormulario">
         <h2 className="Hogar"> HOGAR</h2>
+        
         <div class="form-check">
           <input
             class="form-check-input"

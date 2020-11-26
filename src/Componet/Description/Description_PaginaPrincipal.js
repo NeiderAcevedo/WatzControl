@@ -17,7 +17,7 @@ function Description_PaginaPrincipal() {
 
        <button type="button" class="btn btn-secondary">
          <Link classname="BotoN" to="pagesConsumoMes">
-           Historial Mes
+          Registro Mes
          </Link>
        </button>
 
